@@ -3,18 +3,13 @@ import logo from "./logo.svg";
 import "./App.css";
 import List from "./Components/List";
 import ToogleButton from "./Components/ToogleButton";
+import Input from "./Components/Input";
 
 function App() {
   const [data, setData] = useState([1, 2, 3, 4, 5]);
   const [text, setText] = useState("");
   
-  const [field, setField] = useState("value from state");
-  
-  const onPress = (event) =>{
-  //  let h1 = document.querySelector(h1);
-  
-    setField(event.target.value)
-  }
+
  
 
   const onChangeHandler = (event) => {
@@ -43,11 +38,8 @@ function App() {
             <List data={data} onDelete={onDelete} />
             </div>
           
-          <div>
-          <h1> {field ? field:  "enter here"} </h1>
-          <input type="text" placeholder="enter here" onChange={onPress}/>
-
-          </div>
+        
+          <Input/>
           
         <ToogleButton/>
         </main>
