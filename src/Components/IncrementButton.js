@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-function Practice(){
+function IncrementButton(){
 
   const [actualValue, newValue] = useState(0);
 
@@ -24,4 +24,4 @@ function Practice(){
 
 }
 
-export default Practice;
+export default IncrementButton;

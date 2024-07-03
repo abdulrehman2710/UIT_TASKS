@@ -15,6 +15,8 @@ function FormTask() {
    const onClear = () =>{
        setShowName("");
        setShowEmail("");
+       setName("");
+       setEmail("");
 };
 
 

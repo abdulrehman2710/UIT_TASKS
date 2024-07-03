@@ -5,8 +5,9 @@ import "./App.css";
 // import ToogleButton from "./Components/ToogleButton";
 // import Input from "./Components/Input";
 // import Map from "./Components/Map";
+// import IncrementButton from "./Components/IncrementButton";
 import FormTask from "./Components/FormTask";
-// import FormPractice from "./Components/FormPractice";
+
 
 function App() {
   // const [data, setData] = useState([1, 2, 3, 4, 5]);
