@@ -1,5 +1,4 @@
 function List(props) {
-  console.log(props);
 
   return (
     <div>
@@ -7,7 +6,7 @@ function List(props) {
         {props.data.map((value, index) => {
           return (
             <li key={index}>
-              {index + " - " + value}
+              {index  + "-" + value}
               <button onClick={() => props.onDelete(index)}>Delete</button>
             </li>
           );
